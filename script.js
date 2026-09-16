@@ -22,7 +22,7 @@ botaoNao.addEventListener("mouseover", fugir);
 botaoNao.addEventListener("touchstart", fugir);
 
 botaoSim.addEventListener("click", function () {
-  pergunta.textContent = "EU SABIA!!!";
+  pergunta.textContent = "ENTÃO ESSE É O COMEÇO DA NOSSA HISTÓRIA!!!";
   ursinho.src = "ursinho-sim.png";
   for (let i = 0; i < 30; i++) {
     const coracao = document.createElement("div");
