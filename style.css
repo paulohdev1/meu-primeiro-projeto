@@ -1,0 +1,64 @@
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+button {
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+#sim {
+    background-color: #28a745;
+    color: white;
+}
+#nao {
+    background-color: #dc3545;
+    color: white;
+}
+h1 {
+    font-size: clamp (20px, 5vw, 28px);
+    color: #333;
+    margin-bottom: 25px;
+}
+.container img {
+    width: 180px;
+    max-width: 100px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.coracao {
+    position: fixed;
+    bottom: -20px;
+    font-size: 24px;
+    animation: subir 3s linear forwards;
+    pointer-events: none;
+
+}
+@keyframes subir {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
+}
